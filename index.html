@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATC</title>
+    <script>
+        // GitHub Pages в режиме "Deploy from a branch" публикует корень репозитория,
+        // поэтому приложение лежит в frontend-ui/src. Параметры MAX переносим дальше.
+        location.replace('frontend-ui/src/pages/home.html' + location.search + location.hash);
+    </script>
+</head>
+<body>
+    <noscript>
+        <a href="frontend-ui/src/pages/home.html">Перейти в приложение</a>
+    </noscript>
+</body>
+</html>
