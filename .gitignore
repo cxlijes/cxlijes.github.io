@@ -1,0 +1,21 @@
+# Build output C# / .NET
+bin/
+obj/
+
+# Frontend
+node_modules/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets — уточни имена под свой конфиг
+*.env
+appsettings.Development.json
+appsettings.Local.json
